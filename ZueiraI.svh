@@ -2,8 +2,10 @@
 `define _my_incl_vh_
 `endif
 
-`define START_MEM_Addr 0
-`define INT_MEM_Addr 2
+`timescale 1 ns / 1 ns
+
+`define MEM_START_MEM_Addr 0
+`define MEM_INT_MEM_Addr 2
 `define MEM_INT_CH 4
 `define MEM_INT_TYPE_0to3 5
 `define MEM_INT_TYPE_4to7 6
